@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	body {
+	font-family: Verdana, sans-serif;
+	margin: 0;
+	overflow-x: hidden;
+	}
+	* {
+	box-sizing: border-box;
+	}
+	.row > .column {
+	padding: 0 8px;
+	}
+	.row:after {
+	content: "";
+	display: table;
+	clear: both;
+	}
+	.column {
+	float: left;
+	width: 33%;
+	border-style: solid;
+	color: red;
+	height: 350px;
+	border-width: 2px;
+	}
+	img {
+	margin-bottom: -4px;
+	}
+	.caption-container {
+	text-align: center;
+	padding: 2px 16px;
+	color: black;
+	}
+	</style>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"></script>
+<script>
+$(function(){
+$("#header").load("header.html");
+
+$("#footer").load("footer.html");
+});
+</script>
+	<body>
+		<div id="header"></div>
+		<h2 style="text-align:center">Using HTML & CSS</h2>
+		<div class="row">
+			<div class="column">
+				<img src="img/1.png"  style="width:80%" >
+				<div class="caption-container">
+					<p id="caption">Social Support</p>
+				</div>
+			</div>
+			<div class="column">
+				<img src="img/1.png" style="width:80%" >
+				<div class="caption-container">
+					<p id="caption">Social Support</p>
+				</div>
+			</div>
+			<div class="column">
+				<img src="img/1.png" style="width:80%">
+				<div class="caption-container">
+					<p id="caption">Social Support</p>
+				</div>
+			</div>
+			<div class="column" style="margin-top: 80px;">
+				<img src="img/1.png" style="width:80%" >
+				<div class="caption-container">
+					<p id="caption">Social Support</p>
+				</div>
+			</div>
+			<div class="column" style="margin-top: 80px;">
+				<img src="img/1.png" style="width:80%" >
+				<div class="caption-container">
+					<p id="caption">Social Support</p>
+				</div>
+			</div>
+			<div class="column" style="margin-top: 80px;">
+				<img src="img/1.png" style="width:80%" >
+				<div class="caption-container">
+					<p id="caption">Social Support</p>
+				</div>
+			</div>
+		</div>
+	
+		<div id="footer" style="padding-top: 30px;margin-top: 42px;    padding: 76px 0px 1px 0px;"></div>
+	

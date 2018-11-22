@@ -1,0 +1,26 @@
+<script
+src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"></script>
+<script>
+$(function(){
+$("#header").load("header.html");
+$("#body").load("body.html");
+$("#footer").load("footer.html");
+});
+</script>
+<section id="topbar" class="d-none d-lg-block">
+	<div class="container clearfix">
+		<div class="contact-info float-left">
+			<i class="fa fa-phone"></i> +1 5589 55488 55
+			<i class="fa fa-envelope-o"></i> <a href="mailto:contact@example.com">contact@example.com</a>
+		</div>
+		<div class="social-links float-right">
+			<button class="btn btn-default btn-sm">Become a Support worker</button>
+			<button class="btn btn-danger btn-sm">I am looking for support</button>
+			
+		</div>
+	</div>
+</section>
+<div id="header"></div>
+<div id="body"></div>
+<div id="footer"></div>
